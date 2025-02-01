@@ -1,2 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.meowu.starter.web.security.advice.ExceptionAdvice

@@ -1,8 +1,8 @@
 package com.meowu.starter.web.advice;
 
-import com.meowu.starter.web.exception.BusinessException;
-import com.meowu.starter.web.response.Response;
-import com.meowu.starter.web.response.ResponseCode;
+import com.meowu.starter.web.security.exception.BusinessException;
+import com.meowu.starter.web.security.response.Response;
+import com.meowu.starter.web.security.response.ResponseCode;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;

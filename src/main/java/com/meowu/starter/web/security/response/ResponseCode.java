@@ -1,4 +1,4 @@
-package com.meowu.starter.web.response;
+package com.meowu.starter.web.security.response;
 
 public interface ResponseCode{
 

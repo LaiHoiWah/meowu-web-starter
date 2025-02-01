@@ -13,7 +13,7 @@ import java.util.List;
 @Configuration
 public class CorsConfig{
 
-    @ConditionalOnProperty(name = "meowu.web.mvc.cors.enable", havingValue = "true")
+    @ConditionalOnProperty(name = "meowu.web.mvc.cors", havingValue = "true")
     @Bean
     public CorsFilter corsFilter(){
         List<String> all = Lists.newArrayList(CorsConfiguration.ALL);

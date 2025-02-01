@@ -1,4 +1,4 @@
-package com.meowu.starter.web.exception;
+package com.meowu.starter.web.security.exception;
 
 import lombok.Getter;
 

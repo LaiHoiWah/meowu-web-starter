@@ -1,4 +1,4 @@
-package com.meowu.starter.web.stereotype;
+package com.meowu.starter.web.security.stereotype;
 
 import org.springframework.core.annotation.AliasFor;
 import org.springframework.stereotype.Component;
