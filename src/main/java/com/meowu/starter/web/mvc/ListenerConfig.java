@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class ListenerConfig{
 
-    @ConditionalOnProperty(name = "meowu.web.mvc.log", havingValue = "true")
+    @ConditionalOnProperty(name = "meowu.web.mvc.log.enabled", havingValue = "true")
     @Bean
     public RequestLogListener requestLogListener(){
         return new RequestLogListener();

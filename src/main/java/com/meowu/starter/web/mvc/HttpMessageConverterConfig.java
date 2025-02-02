@@ -1,6 +1,5 @@
 package com.meowu.starter.web.mvc;
 
-import com.google.gson.Gson;
 import com.meowu.starter.commons.utils.GsonUtils;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.autoconfigure.http.HttpMessageConverters;
