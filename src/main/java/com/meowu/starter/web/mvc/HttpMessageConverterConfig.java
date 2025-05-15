@@ -13,7 +13,7 @@ import java.nio.charset.StandardCharsets;
 @Configuration
 public class HttpMessageConverterConfig{
 
-    @ConditionalOnProperty(name = "meowu.web.mvc.converter", havingValue = "gson")
+    @ConditionalOnProperty(name = "meowu.web.converter", havingValue = "gson")
     @Bean
     public HttpMessageConverters gsonConverter(){
         // gson convert
