@@ -17,6 +17,7 @@ public class Response{
 
     public Response(Object data){
         this.data = data;
+        this.code = ResponseCode.SUCCESS;
     }
 
     public Response(Integer code, String message){
