@@ -24,7 +24,7 @@ public class HttpMessageConverterConfig{
         return new HttpMessageConverters(converter);
     }
 
-    @ConditionalOnProperty(name = "meowu.web.mvc.converter", havingValue = "string")
+    @ConditionalOnProperty(name = "meowu.web.converter", havingValue = "string")
     @Bean
     public HttpMessageConverters stringConverter(){
         // string convert
